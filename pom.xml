@@ -35,7 +35,7 @@
 						<muleVersion>${app.runtime}</muleVersion>
 						<username>mydwin</username>
 						<password>Good@123</password>
-						<applicationName>ssssssss</applicationName>
+						<applicationName>${project.artifactId}</applicationName>
 						<environment>Sandbox</environment>
 						<workerType>Micro</workerType>
 						<workers>1</workers>
