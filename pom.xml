@@ -30,18 +30,19 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				  <cloudHubDeployment>
+					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com/</uri>
- 						<muleVersion>${app.runtime}</muleVersion>
+						<muleVersion>${app.runtime}</muleVersion>
 						<username>mydwin</username>
 						<password>Good@123</password>
-						<applicationName>${project.artifactId}</applicationName>
-                        <environment>Sandbox</environment>
-                        <workerType>${workerType}</workerType>
-                        <workers>1</workers>
-                        <objectStoreV2>true</objectStoreV2>
-				</cloudHubDeployment>
-				  </configuration>
+						<applicationName>ssssssss</applicationName>
+						<environment>Sandbox</environment>
+						<workerType>Micro</workerType>
+						<workers>1</workers>
+						<objectStoreV2>true</objectStoreV2>
+					</cloudHubDeployment>
+					<classifier>mule-application</classifier>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
